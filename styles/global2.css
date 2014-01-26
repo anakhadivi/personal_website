@@ -1,0 +1,43 @@
+#contact_me{
+	float: left;
+	width: 100px;
+	position: fixed;
+	text-align: center;
+	outline: 1px dashed blue;
+}
+#contact_me ul{
+	list-style-type: none;
+}
+#contact_me button{
+	background-color: #B2D1FF;
+	color: #FFF;
+	width: 100px;
+}
+#contact_me button:hover{
+	cursor: pointer;
+}
+		<div id="contact_me">
+			<ul>	
+				<li>
+					<a href="#">
+						<button>
+							Facebook
+						</button>
+					</a>
+				</li>
+				<li>
+					<a href="#">
+						<button>
+							Instagram
+						</button>
+					</a>
+				</li>
+				<li>
+					<a href="#">
+						<button>
+							Twitter
+						</button>
+					</a>
+				</li>
+			</ul>
+		</div>
