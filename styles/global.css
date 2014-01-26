@@ -1,10 +1,10 @@
 body{
+	margin-top: 0;
 	max-width: 1260px;
 	background-color: #FFFF94;
 	font-size: 18px;
 }
 nav{
-	outline: 1px dashed red;
 	max-width: 900px;
 	text-align: center;
 	background-color: #B2D1FF;
@@ -16,11 +16,11 @@ nav ul{
 }
 nav ul li{
 	display: inline;
-	color: #FFF;
 	padding-right: 8px;
 }
 nav ul li a{
 	text-decoration: none;
+	color: #FFF;
 }
 nav a:link{
 	color:#FFF;
@@ -28,27 +28,60 @@ nav a:link{
 nav a:hover{
 
 }
+#media{
+	max-width: 200px;
+	position: fixed;
+	text-align: center;
+}
+#media ul{
+	list-style-type: none;
+}
+#media ul li{
+	text-decoration: none;
+}
+button{
+	color: #FFF;
+	background-color: #B2D1FF;
+	cursor: pointer;
+}
+/*index.html*/
+h1{
+	color:#B2D1FF;
+	font-size: 28px;
+	text-align: center;
+}
+h2{
+	color: #FF0066;
+	font-size: 16px;
+	text-align: center;
+}
 #layout{
-	max-width: 900px;
-	background-color: #FFFFCC;
+	max-width: 700px;
+	text-align: center;
 	margin-left: auto;
 	margin-right: auto;
-	float:right;
 }
-#layout img{
-	float:left;
-	margin-right: 5px;
-	border-style:solid;
-	border-color: #B2D1FF;
+/*about me*/
+#bio{
+	float: left;
+	background-color: #FFFFB2;
+	max-width: 700px;
+	margin-left: 200px;
+	font-size: 16px;
 }
+/*photo diary*/
 #photo_gallery{
-	max-width: 900px;
+	max-width: 740px;
+	height: 161px;
 	margin-right: auto;
 	margin-left: auto;
-	background-color: #FFFFCC;
 }
 #photo_gallery img{
 	float: left;
+	padding-right: 5px;
+	margin-top: auto;
+	margin-bottom: auto;
+
 }
 #main_photo{
 	clear:both;
@@ -56,4 +89,11 @@ nav a:hover{
 	margin-left: auto;
 	text-align: center;
 }
+figcaption{
+	font-size: 14px;
+	border-style: dotted;
+	border-color: #B2D1FF;
+	max-width: 300px;
+	margin-right: auto;
+	margin-left: auto;
 }
