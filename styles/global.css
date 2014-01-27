@@ -65,10 +65,23 @@ h2{
 #bio{
 	float: left;
 	background-color: #FFFFB2;
-	max-width: 700px;
+	max-width: 350px;
 	margin-left: 200px;
 	font-size: 16px;
 }
+#favorites{
+	float:left;
+	max-width: 350px;
+	
+
+}
+#favorites ul{
+	list-style-type: none;
+}
+#favorites li,a{
+	text-decoration: none;
+}
+
 /*photo diary*/
 #photo_gallery{
 	max-width: 740px;
